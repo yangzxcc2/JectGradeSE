@@ -12,7 +12,11 @@ public class GradeCalculatorTest {
     public void testCalculate(){
         GradeCalculator gradeCalculator = new GradeCalculator();
         assertThat(gradeCalculator.calculate(25,28,32),is('B'));
+<<<<<<< HEAD
         assertThat(gradeCalculator.calculate(0,0,-2),is('U'));
+=======
+        assertThat(gradeCalculator.calculate(50,50,1,12,23,3),is('x'));
+>>>>>>> abf7bc31e50d107484f0ab3e03a29b6ebff370b5
     }
 
 }
