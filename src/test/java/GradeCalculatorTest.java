@@ -12,6 +12,7 @@ public class GradeCalculatorTest {
     public void testCalculate(){
         GradeCalculator gradeCalculator = new GradeCalculator();
         assertThat(gradeCalculator.calculate(25,28,32),is('B'));
+        assertThat(gradeCalculator.calculate(50,50,1,12,23,3),is('x'));
     }
 
 }
